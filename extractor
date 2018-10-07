@@ -1,0 +1,1 @@
+cat supportedLangs.txt | sed -re "s/(.*\s)([a-zA-Z]+-?[a-zA-Z]+-[A-Z][A-Z])(\s.*)/\2/g" > supportedLocales.txt
